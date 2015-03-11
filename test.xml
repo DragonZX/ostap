@@ -1,0 +1,18 @@
+﻿<?xml version="1.1" encoding="UTF-8"?> 
+<test name="Первый тест" time="30">
+<!-- Критерии выставляются по принципу меньше/равно -->
+<criteria>
+<markAA name="5+">100</markAA>
+<markA name="5">95</markA>
+<markB name="4">85</markB>
+<markC name="3">75</markC>
+<markD name="2">50</markD>
+<markE name="Без права пересдачи">0</markE>
+</criteria>
+<question name="Первый вопрос">
+<answer right="true">Первый ответ</answer>
+<answer right="false">Второй ответ</answer>
+<answer right="false">Третий ответ</answer>
+<answer right="false">Чевертый ответ</answer>
+</question>
+</test>
