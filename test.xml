@@ -1,6 +1,8 @@
-﻿<?xml version="1.1" encoding="UTF-8"?> 
-<test name="Первый тест" time="30">
+﻿<?xml version="1.1" encoding="UTF-8"?>
+<test name="Первый тест" alias="test" mode="exam" time="30">
 <!-- Критерии выставляются по принципу меньше/равно -->
+<autor email="test@test.tld" url="http://myhometest.tld" date="23 march 2015">Test author</author>
+<description>Your description</description>
 <criteria>
 <markAA name="5+">100</markAA>
 <markA name="5">95</markA>
@@ -9,7 +11,61 @@
 <markD name="2">50</markD>
 <markE name="Без права пересдачи">0</markE>
 </criteria>
-<question name="Первый вопрос">
+<question text="Первый вопрос">
+<answer right="true">Первый ответ</answer>
+<answer right="false">Второй ответ</answer>
+<answer right="false">Третий ответ</answer>
+<answer right="false">Чевертый ответ</answer>
+</question>
+<question text="Второй вопрос">
+<answer right="false">Первый ответ</answer>
+<answer right="true">Второй ответ</answer>
+<answer right="false">Третий ответ</answer>
+<answer right="false">Чевертый ответ</answer>
+</question>
+<question text="Третий вопрос">
+<answer right="true">Первый ответ</answer>
+<answer right="false">Второй ответ</answer>
+<answer right="false">Третий ответ</answer>
+<answer right="false">Чевертый ответ</answer>
+</question>
+<question text="Четвертый вопрос">
+<answer right="true">Первый ответ</answer>
+<answer right="false">Второй ответ</answer>
+<answer right="false">Третий ответ</answer>
+<answer right="false">Чевертый ответ</answer>
+</question>
+<question text="Пятый вопрос">
+<answer right="true">Первый ответ</answer>
+<answer right="false">Второй ответ</answer>
+<answer right="false">Третий ответ</answer>
+<answer right="false">Чевертый ответ</answer>
+</question>
+<question text="Шестой вопрос">
+<answer right="true">Первый ответ</answer>
+<answer right="false">Второй ответ</answer>
+<answer right="false">Третий ответ</answer>
+<answer right="false">Чевертый ответ</answer>
+</question>
+<question text="Седьмой вопрос">
+<answer right="true">Первый ответ</answer>
+<answer right="false">Второй ответ</answer>
+<answer right="false">Третий ответ</answer>
+<answer right="false">Чевертый ответ</answer>
+</question>
+<question text="Восьмой вопрос">
+<answer right="true">Первый ответ</answer>
+<answer right="false">Второй ответ</answer>
+<answer right="false">Третий ответ</answer>
+<answer right="false">Чевертый ответ</answer>
+</question>
+<question text="Девятый вопрос">
+<answer right="true">Первый ответ</answer>
+<answer right="false">Второй ответ</answer>
+<answer right="false">Третий ответ</answer>
+<answer right="false">Чевертый ответ</answer>
+</question>
+<question text="Десятый вопрос">
 <answer right="true">Первый ответ</answer>
 <answer right="false">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
