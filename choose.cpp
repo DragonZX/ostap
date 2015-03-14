@@ -1,4 +1,4 @@
-#include "testplatform.h"
+#include "choose.h"
 #include "ui_testplatform.h"
 
 TestPlatform::TestPlatform(QWidget *parent) :

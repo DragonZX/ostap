@@ -12,10 +12,13 @@ TARGET = ostap
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        testplatform.cpp
+SOURCES += main.cpp \
+    choose.cpp
 
-HEADERS  += testplatform.h
+HEADERS  += \
+    choose.h
 
-FORMS    += testplatform.ui \
-    dialog.ui
+FORMS    += \
+    choose.ui \
+    register.ui \
+    mainwindow.ui
