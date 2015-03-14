@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<test name="Первый тест" alias="test" mode="exam" skip="true" random="true" time="30">
+<test name="Первый тест" alias="test" mode="exam" skip="true" random="true" time="30" lang="ru-RU">
 <!--skip & radnom - true, false, section-->
+<!--question mode - Check,free->
 <!-- Критерии выставляются по принципу меньше/равно -->
 <author email="test@test.tld" url="http://myhometest.tld" date="23 march 2015">Test author</author>
 <description>Your description</description>
@@ -13,19 +14,19 @@
 <markE name="Без права пересдачи">0</markE>
 </criteria>
 <section>
-<question text="Первый вопрос" cost="1">
+<question text="Первый вопрос" cost="1" open="false">
 <answer right="true">Первый ответ</answer>
 <answer right="false">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
 <answer right="false">Чевертый ответ</answer>
 </question>
-<question text="Второй вопрос" cost="1">
+<question text="Второй вопрос" cost="1" open="false">
 <answer right="false">Первый ответ</answer>
 <answer right="true">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
 <answer right="false">Чевертый ответ</answer>
 </question>
-<question text="Третий вопрос" cost="1">
+<question text="Третий вопрос" cost="1" open="false">
 <answer right="true">Первый ответ</answer>
 <answer right="false">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
@@ -33,19 +34,19 @@
 </question>
 </section>
 <section>
-<question text="Четвертый вопрос" cost="1">
+<question text="Четвертый вопрос" cost="1" open="false">
 <answer right="true">Первый ответ</answer>
 <answer right="false">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
 <answer right="false">Чевертый ответ</answer>
 </question>
-<question text="Пятый вопрос" cost="1">
+<question text="Пятый вопрос" cost="1" open="false">
 <answer right="true">Первый ответ</answer>
 <answer right="false">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
 <answer right="false">Чевертый ответ</answer>
 </question>
-<question text="Шестой вопрос" cost="1">
+<question text="Шестой вопрос" cost="1" open="false">
 <answer right="true">Первый ответ</answer>
 <answer right="false">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
@@ -53,25 +54,25 @@
 </question>
 </section>
 <section>
-<question text="Седьмой вопрос" cost="1">
+<question text="Седьмой вопрос" cost="1" open="false">
 <answer right="true">Первый ответ</answer>
 <answer right="false">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
 <answer right="false">Чевертый ответ</answer>
 </question>
-<question text="Восьмой вопрос" cost="1">
+<question text="Восьмой вопрос" cost="1" open="false">
 <answer right="true">Первый ответ</answer>
 <answer right="false">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
 <answer right="false">Чевертый ответ</answer>
 </question>
-<question text="Девятый вопрос" cost="1">
+<question text="Девятый вопрос" cost="1" open="false">
 <answer right="true">Первый ответ</answer>
 <answer right="false">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
 <answer right="false">Чевертый ответ</answer>
 </question>
-<question text="Десятый вопрос" cost="1">
+<question text="Десятый вопрос" cost="1" open="false">
 <answer right="true">Первый ответ</answer>
 <answer right="false">Второй ответ</answer>
 <answer right="false">Третий ответ</answer>
