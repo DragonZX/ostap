@@ -21,4 +21,5 @@ HEADERS  += \
 FORMS    += \
     choose.ui \
     register.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    openquest.ui
