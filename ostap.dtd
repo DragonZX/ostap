@@ -1,43 +1,32 @@
-        <!ELEMENT test (author|description|criteria|section)*>
-        <!ATTLIST test
-                name CDATA #REQUIRED
-                alias CDATA #REQUIRED
-                mode CDATA #REQUIRED
-                skip CDATA #REQUIRED
-                random CDATA #REQUIRED
-                time CDATA #REQUIRED
-                lang CDATA #REQUIRED>
-        <!ELEMENT author (#PCDATA)>
-        <!ATTLIST author
-                email CDATA #REQUIRED
-                url CDATA #REQUIRED
-                date CDATA #REQUIRED>
-        <!ELEMENT description (#PCDATA)>
-        <!ELEMENT criteria (markAA|markA|markB|markC|markD|markE)*>
-        <!ELEMENT markAA (#PCDATA)>
-        <!ATTLIST markAA
-                name CDATA #REQUIRED>
-        <!ELEMENT markA (#PCDATA)>
-        <!ATTLIST markA
-                name CDATA #REQUIRED>
-        <!ELEMENT markB (#PCDATA)>
-        <!ATTLIST markB
-                name CDATA #REQUIRED>
-        <!ELEMENT markC (#PCDATA)>
-        <!ATTLIST markC
-                name CDATA #REQUIRED>
-        <!ELEMENT markD (#PCDATA)>
-        <!ATTLIST markD
-                name CDATA #REQUIRED>
-        <!ELEMENT markE (#PCDATA)>
-        <!ATTLIST markE
-                name CDATA #REQUIRED>
-        <!ELEMENT section (question)*>
-        <!ELEMENT question (answer)*>
-        <!ATTLIST question
-                cost CDATA #REQUIRED
-                open CDATA #REQUIRED
-                text CDATA #REQUIRED>
-        <!ELEMENT answer (#PCDATA)>
-        <!ATTLIST answer
-                right CDATA #REQUIRED>
+<!ELEMENT test (author|description|speciality|criteria|section)*>
+<!ATTLIST test
+        name CDATA #REQUIRED
+        alias CDATA #REQUIRED
+        mode CDATA #REQUIRED
+        skip CDATA #REQUIRED
+        random CDATA #REQUIRED
+        time CDATA #REQUIRED
+        lang CDATA #REQUIRED>
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author
+        email CDATA #REQUIRED
+        url CDATA #REQUIRED
+        date CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT speciality (spec)*>
+<!ELEMENT spec (#PCDATA)>
+<!ATTLIST spec
+        id CDATA #REQUIRED>
+<!ELEMENT criteria (mark)*>
+<!ELEMENT mark (#PCDATA)>
+<!ATTLIST mark
+        name CDATA #REQUIRED>
+<!ELEMENT section (question)*>
+<!ELEMENT question (answer|question)*>
+<!ATTLIST question
+        cost CDATA #REQUIRED
+        open CDATA #REQUIRED
+        text CDATA #REQUIRED>
+<!ELEMENT answer (#PCDATA)>
+<!ATTLIST answer
+        right CDATA #REQUIRED>
